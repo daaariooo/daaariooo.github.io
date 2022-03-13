@@ -1,0 +1,59 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-image: url(https://yt3.ggpht.com/qVAZ0ej7o6sc4Ex_cJzGX6L25fOz9sMtlsxnfWQF9XPeDp-tMpUoXlUE0xCTaQBEHd2IRGINWg=s108-c-k-c0x00ffffff-no-rj);
+  background-size: 100%;
+}
+
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #000000;
+  overflow: hidden;
+  opacity: 70%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  opacity: 70%;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: LightGray;
+  color: black;
+  opacity: 70%;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: LightGray;
+  color: white;
+  opacity: 70%;
+}
